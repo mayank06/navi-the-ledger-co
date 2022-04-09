@@ -1,5 +1,9 @@
 package command;
 
+import ledger.balance.BalanceManager;
+import ledger.loan.LoanManager;
+import ledger.payment.PaymentManager;
+
 public class CommandFactory {
 
     public CommandExecution getInstance(String command, String[] input) {
